@@ -5,13 +5,13 @@ import Menu from './Menubar'; // Import the Menu component
 const Homepage: React.FC = () => {
   return (
     <div>
-      <header className="bg-yellow-500 py-4 px-3 flex justify-between items-center">
-        <div className="text-white text-5xl">Epic baking website</div>
+      <header className="bg-pink-200 py-4 px-3 flex justify-between items-center">
+        <div className="text-white text-5xl" style={{ fontFamily: 'Pacifico'}}>Epic baking website</div>
         <Menu />
       </header>
 
       <main className="flex justify-center mt-10">
-        <div className="grid grid-cols-2 gap-4 text-center">
+        <div className="flex justify-center space-x-4 text-center">
           <a href="/cookies" className="flex flex-col items-center">
             <img src="https://lh3.googleusercontent.com/proxy/0Ke-So2XTtezVf7Hy_NDP8QjPaJdTjQg1JNQ2tX2VuG2ruf3vp1ByE-Y5xlrvjsw9BjmlwLgtm0u6AOKwobSEW2tDZkLOVI03OieT8a9XGNKkfSX3mlplHLTdZB9lYCL0O7x9I4" alt="Cookies" className="w-48 h-48 object-cover rounded-md" />
             <p className="mt-2 text-lg">Cookies</p>
@@ -25,7 +25,7 @@ const Homepage: React.FC = () => {
             <p className="mt-2 text-lg">Breads/Loaves</p>
           </a>
           <a href="/cakes" className="flex flex-col items-center">
-            <img src="https://example.com/cake-image.jpg" alt="Cakes" className="w-48 h-48 object-cover rounded-md" />
+            <img src="https://www.foodandwine.com/thmb/HXQZrJNlb-fIOwJfhhQupjvEuBw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Chantilly-Cream-Cake-FT-RECIPE0423-b012a9c7b8ed419f83a219f8ef9201e8.jpg" alt="Cakes" className="w-48 h-48 object-cover rounded-md" />
             <p className="mt-2 text-lg">Cakes</p>
           </a>
         </div>
