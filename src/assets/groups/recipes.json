@@ -1,10 +1,159 @@
 [
   {
     "id": 1,
-    "name": "Chocolate Chip Cookies",
-    "image": "https://pinchofyum.com/wp-content/uploads/Chocolate-Chip-Cookies.jpg",
-    "ingredients": ["Flour", "Sugar", "Chocolate Chips", "Butter", "Eggs", "Vanilla Extract"],
-    "instructions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+    "type": "cookie",
+    "name": "Salted Butter and Chocolate Chunk Shortbread Cookies",
+    "image": "https://static01.nyt.com/images/2018/12/12/dining/16COOKING-SHORTBREADCOOKIES3/16COOKING-SHORTBREADCOOKIES3-articleLarge.jpg?width=1280&quality=75&auto=webp",
+    "ingredients": [
+      "1 cup plus 2 tablespoons/255 grams total salted butter (2¼ sticks), cold (room temperature if you're using a handheld mixer), cut into ½-inch pieces",
+      "½ cup/100 grams granulated sugar",
+      "¼ cup/55 grams light brown sugar",
+      "1 teaspoon vanilla extract",
+      "2½ cups/325 grams all-purpose flour",
+      "6 ounces/170 grams semi-sweet or bittersweet dark chocolate, chopped",
+      "1 large egg, beaten",
+      "Demerara sugar, for rolling",
+      "Flaky sea salt, for sprinkling"
+    ],
+    "instructions": [
+      "Line two rimmed baking sheets with parchment paper.",
+      "Using a stand mixer fitted with the paddle attachment or an electric hand mixer, beat the butter, both sugars, and vanilla on medium-high till it’s super light and fluffy (3 to 5 minutes for a stand mixer; 6 to 8 for a hand mixer).",
+      "Using a spatula, scrape down the sides of the bowl and, with the mixer on low, slowly add the flour, followed by the chocolate chunks, and mix just to blend. If necessary, knead the dough with your hands to make sure the flour is totally incorporated.",
+      "Divide the dough in half, placing each half on a large piece of plastic wrap. Form the dough into a log shape; rolling it on the counter will help you smooth it out.",
+      "Chill until totally firm, about 2 hours.",
+      "Heat the oven to 350 degrees.",
+      "Brush the outside of the logs with the beaten egg and roll them in the demerara sugar.",
+      "Using a serrated knife, carefully slice each log into ½-inch-thick rounds.",
+      "Place them on the prepared baking sheets about 1 inch apart. Sprinkle with flaky salt.",
+      "Bake until the edges are just beginning to brown, 12 to 15 minutes. Let cool slightly before serving."
+    ],
+    "comments": []
+  },
+
+  {
+    "id": 2,
+    "type": "pie",
+    "name": "Key Lime Pie Bars",
+    "image": "https://static01.nyt.com/images/2021/04/02/dining/seneviratne_limebars_horizontal/merlin_141910329_66938d51-b211-4137-9a83-2aef34090ca8-articleLarge.jpg?width=1280&quality=75&auto=webp",
+    "ingredients": [
+      "1 (11-ounce) box vanilla wafers",
+      "2 tablespoons granulated sugar",
+      "8 tablespoons/115 grams unsalted butter, melted",
+      "1¾ cup/420 milliliters condensed milk (1 14-ounce can plus ½ cup)",
+      "5 large egg yolks",
+      "¾ cup/180 milliliters Key lime or conventional lime juice",
+      "1 teaspoon lime zest",
+      "1 cup/240 milliliters cold heavy cream",
+      "1 tablespoon confectioners’ sugar"
+    ],
+    "instructions": [
+      "Heat oven to 350 degrees. Line a 9-inch square pan with parchment paper, leaving a 2-inch overhang on two sides. In a food processor, combine vanilla wafers and sugar, and pulse until you have fine crumbs. Add butter and process until evenly moistened. Transfer mixture to prepared pan and press it down into an even layer. Bake until fragrant and a shade darker, 15 to 17 minutes.",
+      "Meanwhile, prepare the filling: In a medium bowl, whisk together condensed milk, egg yolks, lime juice and lime zest.",
+      "Pour filling over crust (it’s O.K. if it’s still warm) and bake until the filling is set, about 15 minutes. Transfer to a rack to cool completely, then cover and refrigerate for at least 4 hours.",
+      "Use a sharp knife to release edges. Using the parchment overhang, carefully lift and transfer the bar to a cutting board. Just before serving, whip heavy cream and confectioners’ sugar until soft peaks form. Top bars with whipped cream and cut into 16 squares to serve."
+    ],
+    "comments": []
+  },
+
+  {
+    "id": 3,
+    "type": "cake",
+    "name": "Boozy Carrot Cake",
+    "image": "https://static01.nyt.com/images/2024/05/10/multimedia/vv-rum-raisin-carrot-cake-klgz/vv-rum-raisin-carrot-cake-klgz-articleLarge.jpg?width=1280&quality=75&auto=webp",
+    "ingredients": [
+      "1 cup/135 grams raisins",
+      "½ cup/150 grams dark rum",
+      "1 cup/100 grams chopped walnuts",
+      "1 cup/230 milliliters grapeseed or other neutral oil, plus more for greasing pans",
+      "2 cups/256 grams all-purpose flour",
+      "2 teaspoons ground cinnamon",
+      "2 teaspoons ground ginger",
+      "2 teaspoons baking powder",
+      "1 teaspoon baking soda",
+      "1 teaspoon kosher salt, such as Diamond Crystal",
+      "3 cups/295 grams shredded or coarsely grated carrots (from about 3 large carrots/12 ounces, peeled)",
+      "½ cup/140 grams canned crushed pineapple",
+      "1 tablespoon finely grated fresh ginger",
+      "¾ cup/150 grams granulated sugar",
+      "¾ packed cup/155 grams dark brown sugar",
+      "4 large eggs, at room temperature",
+      "½ cup/113 grams unsalted butter (1 stick), at room temperature",
+      "2½ cups/298 grams powdered sugar, sifted",
+      "½ teaspoon kosher salt, such as Diamond Crystal",
+      "1 tablespoon fresh lemon zest",
+      "16 ounces cream cheese, at room temperature",
+      "Chopped candied ginger (optional)"
+    ],
+    "instructions": [
+      "Put raisins in a small bowl or airtight container and pour in the rum. Cover and let sit at room temperature for at least 8 hours, or overnight. (If you’re short on time, heat the rum-raisin mixture in the microwave for about 1 minute and let cool to room temperature. The raisins won’t absorb as much liquid as they would overnight, but that will kickstart the rum soak.)",
+      "When you’re ready to bake, heat the oven to 350 degrees. Spread the chopped walnuts on a rimmed baking sheet and toast for 10 minutes, until fragrant; set aside to cool completely. Meanwhile, grease two 9-inch cake pans with oil, and line the bottoms with parchment paper. Grease the exposed side of the parchment as well and set aside.",
+      "In a medium bowl, whisk together the flour, cinnamon, ground ginger, baking powder, baking soda and salt.",
+      "Strain the raisins and place in a small bowl; save the rum in a separate container and set aside. In a separate medium bowl, mix together the carrots, toasted walnuts, pineapple, fresh ginger and ¾ cup of the rum-soaked raisins. (The leftover raisins will be used in assembling the cake.)",
+      "In a large bowl, whisk together the oil, granulated sugar and dark brown sugar until the mixture is no longer lumpy, about 1 minute. (You can also do this in the bowl of a stand mixer fitted with a paddle attachment.) Add the eggs one at a time, whisking thoroughly for about 30 seconds after each addition, until the mixture visibly thickens and lightens in color. Add 1 tablespoon of the reserved rum and whisk to incorporate.",
+      "Whisk in the dry ingredients until no dry streaks remain, and then fold in the carrot mixture, taking care to scrape down the sides of the bowl to fully incorporate everything.",
+      "Divide the batter evenly among both cake pans (about 3¼ cups/815 grams per pan) and bake for 30 to 35 minutes, switching the position of the pans halfway through, until the tops of the cakes are springy to the touch and a toothpick inserted into the center comes out clean. Cool for 10 minutes in the pans, and then invert the layers onto a wire rack to cool completely, at least 45 minutes.",
+      "While the cake layers cool, make the frosting: In the bowl of a stand mixer fitted with a paddle attachment, or in a large bowl with an electric hand mixer, beat the butter until spreadable. Add the powdered sugar and salt and begin beating together on low speed until the sugar has fully incorporated into the butter. Increase the speed to medium-high and beat for another minute until the mixture is homogeneous. Add the lemon zest and 3 tablespoons of the reserved rum and beat until very smooth, 1 to 2 minutes. On medium-low speed, add the cream cheese a couple tablespoons at a time, making sure to beat thoroughly after each addition until it has completely disappeared into the mixture. Scrape down the sides of the bowl as needed and continue until all the cream cheese is incorporated.",
+      "When ready to assemble, invert one cake layer onto a platter, flat side up. Spread about half of the frosting evenly over the layer and sprinkle the remaining rum-soaked raisins on top, pressing the raisins into the frosting. (This will make for more cohesion between the layers.) Place the other cake layer on top (flat side down, so that the two flattest surfaces are meeting in the middle) and spread the remaining frosting on top. Adorn with chopped candied ginger, if desired. Let sit at room temperature if enjoying within a couple hours, or refrigerate the cake until ready to serve. Store any leftover cake tightly covered in the fridge for up to 4 days."
+    ],
+    "comments": []
+  },
+  {
+    "id": 4,
+    "type": "brownie",
+    "name": "Arabic Coffee Brownies",
+    "image": "https://static01.nyt.com/images/2023/04/06/multimedia/nb-brownies-with-coffee-and-cardamom-hkml/nb-brownies-with-coffee-and-cardamom-hkml-articleLarge.jpg?width=1280&quality=75&auto=webp",
+    "ingredients": [
+      "¾ cup/170 grams unsalted butter, plus more for greasing",
+      "7 ounces/200 grams semi-sweet chocolate, cut into large chunks, or chips",
+      "4½ teaspoons instant espresso coffee granules",
+      "1 teaspoon vanilla extract",
+      "¼ teaspoon ground green cardamom, from the seeds of 6 to 9 pods",
+      "½ teaspoon ground cinnamon",
+      "½ teaspoon fine sea salt",
+      "3 large eggs",
+      "½ cup/100 grams granulated sugar",
+      "½ cup/100 grams light brown sugar",
+      "⅔ cup/85 grams all-purpose flour"
+    ],
+    "instructions": [
+      "Heat the oven to 350 degrees. Grease an 8-inch square baking pan with butter and line it with a sheet of parchment paper with a little overhang on two sides.",
+      "Melt the butter and chocolate in a medium pot over low heat, stirring occasionally, about 5 minutes. (Alternatively, you can also melt the butter and chocolate in a microwave-safe bowl in the microwave, stirring at 15 second intervals, until melted.) Add the coffee granules, vanilla, cardamom, cinnamon and salt and stir to combine.",
+      "In the bowl of a stand mixer, combine the eggs and both sugars and beat on high speed until the mixture looks pale, thick and creamy, 3 to 4 minutes.",
+      "Using a large metal spoon or a spatula, fold the chocolate mixture into the egg mixture by gently scooping up some egg mixture from the bottom and folding it over the chocolate at the top until fully combined.",
+      "Fold in the flour until you no longer see flecks of flour, making sure not to overmix.",
+      "Transfer the batter to the prepared pan and use a spatula to spread it into an even layer. Bake until a toothpick inserted in the center comes out with a few moist crumbs, 30 to 35 minutes. Allow to cool completely on a wire rack for 1 hour before using the parchment overhang to remove from the pan."
+    ],
+    "comments": []
+  },
+
+  {
+    "id": 5,
+    "type": "bread",
+    "name": "Banana Bread",
+    "image": "https://static01.nyt.com/images/2020/04/08/dining/em-chocolate-chip-banana-bread/em-chocolate-chip-banana-bread-articleLarge.jpg?width=1280&quality=75&auto=webp",
+    "ingredients": [
+      "Nonstick spray, as needed",
+      "4 very ripe medium bananas, peeled",
+      "6 tablespoons/85 grams unsalted butter, melted",
+      "⅓ cup/80 milliliters plain Greek yogurt",
+      "1 cup/220 grams light or dark brown sugar",
+      "2 large eggs",
+      "2 teaspoons vanilla extract",
+      "2 cups/255 grams all-purpose flour",
+      "1½ teaspoons baking soda",
+      "½ teaspoon fine sea salt",
+      "1 cup/135 grams finely chopped chocolate or mini chocolate chips",
+      "¾ cup/130 grams coarsely chopped toasted nuts, such as almonds, walnuts or pecans (optional)",
+      "Coarse sanding or turbinado sugar, as needed for finishing (optional)"
+    ],
+    "instructions": [
+      "Heat the oven to 350 degrees. Lightly grease a 9-by-5-inch loaf pan with nonstick spray.",
+      "In a large bowl, mash the bananas coarsely using a fork. They should be fully broken apart, but it’s OK if some larger lumpy pieces remain. Whisk in the melted butter, yogurt, brown sugar, eggs and vanilla until well combined.",
+      "In a medium bowl, whisk the flour, baking soda and salt to combine. Add the flour mixture to the banana mixture and stir to combine using a silicone spatula or wooden spoon. Scrape the sides and base of the bowl well to make sure the mixture is uniformly combined.",
+      "Gently stir in the chocolate until combined, then pour the batter into the prepared loaf pan and spread into an even layer. If using, sprinkle the surface generously with coarse sugar.",
+      "Transfer the pan to the oven and bake until the edges of the loaf start to pull away from the edge of the pan, and a tester inserted into the center comes out with just a few moist crumbs attached, 60 to 75 minutes. If the top of the loaf is becoming too dark before it’s baked through, loosely cover with foil.",
+      "Transfer from the oven to a cooling rack and run a thin knife around the edge of the banana bread to separate it from the pan. Let cool in the pan for 10 minutes before unmolding and cooling completely."
+    ],
     "comments": []
   }
 ]
