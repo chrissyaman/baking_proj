@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom';
 import recipes from './recipes.json';
 
 const BrowniesPage: React.FC = () => {
+    const brownieRecipes = recipes.filter(recipe => recipe.type === "brownie");
   return (
     <div>
       <h1>Brownies</h1>
       <div className="recipe-list">
-        {recipes.map(recipe => (
+        {brownieRecipes.map(recipe => (
           <div key={recipe.id}>
             <Link to={`/brownies/${recipe.id}`}>
               <img src={recipe.image} alt={recipe.name} />
