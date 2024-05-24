@@ -1,10 +1,3 @@
-// import React, { useState } from "react";
-// import "./style.css";
-// import Login from "./Login.tsx";
-// import Signup from "./Signup.tsx";
-// import { Typography, Input} from "@material-tailwind/react";
-// import Button from "@material-tailwind/react";
-
 import React, { useState } from "react";
 import "./style.css";
 import Login from "./Login";
@@ -56,7 +49,5 @@ function Authentication({ setWhichPage, setCurrentUser }) {
     </div>
   );
 }
-
-
 
 export default Authentication;

@@ -31,9 +31,9 @@ export function Login({ setWhichPage, setCurrentUser }) {
     <section className="grid place-items-center p-1"> 
         <div>
             <Typography variant="h3" color="blue-gray" className="mb-2">
-                Sign In
+                Want to leave feedback on a recipe?
             </Typography>
-            <Typography className="mb-16 text-gray-600 font-normal text-[18px]">
+            <Typography className="mb-1 text-gray-600 font-normal" style={{ fontSize: '10px' }}>
                 Enter your email and password to sign in
             </Typography>
             <form className="mx-auto max-w-[24rem] text-left">
@@ -95,9 +95,9 @@ export function Login({ setWhichPage, setCurrentUser }) {
         </div>
         <div>
         <button
-            color="purple"
+            color="red"
             size="lg"
-            className="mt-6"
+            className="mt-3"
             fullWidth
             onClick={loginUser}
         >

@@ -6,9 +6,7 @@ function Menu() {
 
     return (
         <div className="relative">
-            <button className="bg-gray-200 hover:bg-gray-300 p-2 rounded" onClick={() => setShowMenu(prev => !prev)}>
-                <MenuIcon />
-            </button>
+            <button className='menuIcon' onClick={() => showMenu === false ? setShowMenu(true) : setShowMenu(false)}>Menu</button>
             {showMenu && (
                 <div id="menu__items" className="absolute right-0 mt-2 w-48 bg-white shadow-lg rounded-lg z-10">
                     <a className="block p-4 font-normal hover:font-semibold">All Recipes</a>

@@ -1,7 +1,11 @@
 import React, { useState } from "react";
-import { Input, Button, Typography } from "@material-tailwind/react";
-import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
-import auth from "./firebase.js";
+import { Typography, Input } from "@material-tailwind/react";
+import {
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+  updateProfile,
+} from "firebase/auth";
+import auth from "./firebase";
 
 function Signup({ setWhichPage, setCurrentUser }) {
   const [email, setEmail] = useState("");
@@ -26,12 +30,13 @@ function Signup({ setWhichPage, setCurrentUser }) {
   };
 
   return (
-    <section className="grid place-items-center p-2">
-      <div>
-        <Typography variant="h3" color="blue-gray" className="mb-2">
-          Sign Up
-        </Typography>
-        <form className="max-w-[24rem] mx-auto text-left">
+   
+  <section className="grid place-items-center p-2"> 
+  <div>
+    <Typography variant="h3" color="blue-gray" className="mb-2">
+      Sign Up
+    </Typography>
+    <form className="max-w-[24rem] mx-auto text-left">
           <div className="mb-6">
             <Input
               id="username"
@@ -65,13 +70,14 @@ function Signup({ setWhichPage, setCurrentUser }) {
               value={password}
             />
           </div>
-            <button onClick={handleSignup}>
+          <button onClick={handleSignup}>
               Sign Up
             </button>
-        </form>
-      </div>
-    </section>
+    </form>
+  </div>
+  </section>
   );
 }
 
 export default Signup;
+

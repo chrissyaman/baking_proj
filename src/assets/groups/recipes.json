@@ -1,11 +1,10 @@
 [
-    {
-      "id": 1,
-      "name": "Chocolate Chip Cookies",
-      "image": "https://pinchofyum.com/wp-content/uploads/Chocolate-Chip-Cookies.jpg",
-      "ingredients": ["Flour", "Sugar", "Chocolate Chips", "Butter", "Eggs", "Vanilla Extract"],
-      "instructions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-      "comments": []
-    },
-    // Add more recipes...
-  ]
+  {
+    "id": 1,
+    "name": "Chocolate Chip Cookies",
+    "image": "https://pinchofyum.com/wp-content/uploads/Chocolate-Chip-Cookies.jpg",
+    "ingredients": ["Flour", "Sugar", "Chocolate Chips", "Butter", "Eggs", "Vanilla Extract"],
+    "instructions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+    "comments": []
+  }
+]
