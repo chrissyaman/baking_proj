@@ -1,8 +1,19 @@
 import React from 'react';
+import { useState } from "react";
 import './style.css';
-import Menu from './Menubar'; // Import the Menu component
+import Menu from './Menubar.tsx'; // Import the Menu component
+import Signup from './Signup.tsx'; // Import the Signup component
+import Login from './Login.tsx';
+import Authentication from './Authentication.tsx';
+import { Link } from 'react-router-dom';
+
 
 const Homepage: React.FC = () => {
+  const [whichPage, setWhichPage] = useState(1);
+  const [currentUser, setCurrentUser] = useState(null);
+  const handleSetCurrentUser = (user) => {
+    setCurrentUser(user);
+  };
   return (
     <div>
       <header className="bg-pink-300 py-4 px-3 flex justify-between items-center">
@@ -10,9 +21,9 @@ const Homepage: React.FC = () => {
         <Menu />
       </header>
 
-      <main className="flex justify-center mt-10">
-        <div className="flex justify-center space-x-8 text-center">
-          <a href="/cookies" className="flex flex-col items-center">
+      <main className="flex flex-col items-center mt-10">
+        <div className="flex justify-center space-x-8 text-center mb-10">
+        <a href="./assets/groups/Cookies.tsx" className="flex flex-col items-center">
             <img src="https://lh3.googleusercontent.com/proxy/0Ke-So2XTtezVf7Hy_NDP8QjPaJdTjQg1JNQ2tX2VuG2ruf3vp1ByE-Y5xlrvjsw9BjmlwLgtm0u6AOKwobSEW2tDZkLOVI03OieT8a9XGNKkfSX3mlplHLTdZB9lYCL0O7x9I4" alt="Cookies" className="w-48 h-48 object-cover rounded-md shadow-lg transition-transform transform hover:scale-105" />
             <p className="mt-2 text-lg font-medium text-gray-700">Cookies</p>
           </a>
@@ -29,6 +40,10 @@ const Homepage: React.FC = () => {
             <p className="mt-2 text-lg font-medium text-gray-700">Cakes</p>
           </a>
         </div>
+        <Authentication
+              setWhichPage={setWhichPage}
+              setCurrentUser={handleSetCurrentUser}
+            />
       </main>
     </div>
   );
