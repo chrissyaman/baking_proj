@@ -7,77 +7,48 @@ import {
 } from "firebase/auth";
 import auth from "./firebase";
 
-function Signup({ setWhichPage, setCurrentUser }) {
+function Signup() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [username, setUsername] = useState("");
 
-  const handleSignup = () => {
+  const handleSignUp = (event) => {
+    event.preventDefault();
     createUserWithEmailAndPassword(auth, email, password)
-      .then((userCredential) => {
-        const user = userCredential.user;
-        console.log("user with email " + user.email + " created!");
-
-        updateProfile(user, { displayName: username }).then(() => {
-          console.log(user.displayName);
-          setCurrentUser(user);
-          setWhichPage(1);
-        });
+      .then((authUser) => {
+        signInWithEmailAndPassword(auth, email, password);
       })
       .catch((err) => {
         alert(err);
       });
   };
-
   return (
-   
-  <section className="grid place-items-center p-2"> 
-  <div>
-    <Typography variant="h3" color="blue-gray" className="mb-2">
-      Sign Up
-    </Typography>
-    <form className="max-w-[24rem] mx-auto text-left">
-          <div className="mb-6">
-            <Input
-              id="username"
-              color="gray"
-              size="lg"
-              onChange={(e) => setUsername(e.target.value)}
-              type="text"
-              placeholder="Your username"
-              value={username}
-            />
-          </div>
-          <div className="mb-6">
-            <Input
-              id="email"
-              color="gray"
-              size="lg"
-              onChange={(e) => setEmail(e.target.value)}
-              type="email"
-              placeholder="name@mail.com"
-              value={email}
-            />
-          </div>
-          <div className="mb-6">
-            <Input
-              id="password"
-              color="gray"
-              size="lg"
-              onChange={(e) => setPassword(e.target.value)}
-              type="password"
-              placeholder="Your password"
-              value={password}
-            />
-          </div>
-          <button onClick={handleSignup}>
-              Sign Up
-            </button>
-    </form>
-  </div>
-  </section>
+    <div className="signup">
+      <img
+        src="https://www.pngkey.com/png/full/828-8286178_mackeys-work-needs-no-elaborate-presentation-or-distracting.png"
+        alt=""
+      />
+      <input
+        onChange={(e) => setEmail(e.target.value)}
+        type="email"
+        placeholder="Email"
+        value={email}
+      />
+      <input
+        onChange={(e) => setUsername(e.target.value)}
+        type="email"
+        placeholder="Username"
+        value={username}
+      />
+      <input
+        onChange={(e) => setPassword(e.target.value)}
+        type="password"
+        placeholder="Password"
+        value={password}
+      />
+      <button onClick={handleSignUp}>Sign up</button>
+    </div>
   );
 }
 
 export default Signup;
-
